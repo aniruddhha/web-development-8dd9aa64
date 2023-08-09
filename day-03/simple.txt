@@ -1,0 +1,1 @@
+Git is a version control system widely used for managing source code. Install Git from the official website (https://git-scm.com) and set it up on your machine. This will allow you to track changes in your codebase and collaborate with others.
