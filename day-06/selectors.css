@@ -1,0 +1,23 @@
+ .bk-brd { /* this is callled class selector */
+    background-color: antiquewhite;
+    border: 1px solid red;
+}
+
+.bl-dtd-brd {
+    border: 2px dotted blue;
+}
+
+.rd-dtd-brd {
+    border: 2px dotted red;
+}
+
+.big-btn {
+    font-size: larger;
+
+}
+
+#btOk {
+    font-size: larger;   
+    color: white;
+    background-color: cadetblue;
+}
