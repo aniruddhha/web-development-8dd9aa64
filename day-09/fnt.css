@@ -4,3 +4,9 @@ p {
     font-style: italic;
     font-size: 3em;
 }
+
+.cont {
+    background-image: url('./mario03.png');
+    background-position: 10% 10%;
+    background-size: contain;
+}
