@@ -1,0 +1,55 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    border: 1px solid red;
+    position: relative;
+    overflow: auto;
+}
+
+.static-box {
+    width: 10%;
+    height: 10%;
+    background-color: cadetblue;
+    position: static;
+}
+
+.relative-box {
+    width: 10%;
+    height: 10%;
+    background-color:  brown;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.absolute-box {
+    width: 10%;
+    height: 10%;
+    background-color:  blueviolet;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.fixed-box {
+    width: 10%;
+    height: 10%;
+    background-color:  chocolate;
+    position: fixed;
+    top: 80px;
+    left: 80px;
+}
+
+.sticky-box {
+    width: 10%;
+    height: 10%;
+    background-color:  chartreuse;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
