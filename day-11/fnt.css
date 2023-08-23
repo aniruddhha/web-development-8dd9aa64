@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('pk-hl.ttf') format('truetype');
+}
+
+p {
+    font-family: 'MyFont', 'Courier New', Courier, monospace;
+    font-size: 2em;
+}

@@ -6,6 +6,7 @@
 }
 
 .child {
-    /* color: red;
-    border: 1px solid green; */
+    color: red;
+    border: 1px solid green; 
+    /* font-size: inherit; */
 }
