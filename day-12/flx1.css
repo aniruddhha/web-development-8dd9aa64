@@ -1,0 +1,73 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: cadetblue;
+}
+main {
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+
+    /* directions */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* content justify - main axis*/
+    justify-content: center;
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+     /* content align - cross axis*/
+     align-items: center;
+     /* align-items: start; */
+     /* align-items: end; */
+
+
+}
+
+.box {
+    width: 10%;
+    height: 10%;
+    border: 1px solid white;
+}
+.red-box {
+    background-color: red;
+}
+.green-box {
+    background-color: green;
+}
+.blue-box {
+    background-color: blue;
+}
+.yellow-box{
+    background-color: yellow;
+}
+.orange-box {
+    background-color: orange;
+}
+
+.info-div {
+    width: 60%;
+    height: 20%;
+    background-color: brown;
+}
+
+.img-div {
+    width: 40%;
+    height: 20%;
+    background-color: crimson;
+    /* position: absolute;
+    top : 20%;
+    left: 40%; */
+}
