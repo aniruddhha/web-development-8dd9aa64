@@ -1,0 +1,34 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+
+    align-items: center ; /* works on whole content */
+    align-content: space-evenly; /* works on flex-lines, created due to wrap */
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
