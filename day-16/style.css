@@ -1,0 +1,108 @@
+html, body {
+    width: 90vw;
+    height: 90vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.good-section {
+    margin-bottom: 16px;
+}
+.form-header {
+    width: 100%;
+    display: flex;
+
+    /* border: 1px solid; */
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.hdr-brd-btm {
+    padding-bottom: 8px;
+    border-bottom: 1px solid gainsboro;
+}
+.header-address {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.acc-info-form {
+    display: flex;
+    justify-content: space-between;
+}
+.acc-info-col {
+    width: 30%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Do it with grid-template-areas */
+.personal-info-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50px;
+    gap: 16px;
+}
+.row1 {
+    grid-column: span 3;
+    border: 1px solid red;
+}
+
+.row2 {
+    grid-column: span 2;
+    border: 1px solid red;
+}
+
+.row3 {
+    grid-column: span 1;
+    border: 1px solid red;
+}
+
+.row4 {
+    grid-column: span 1;
+    border: 1px solid red;
+}
+
+.row5 {
+    grid-column: span 2;
+    border: 1px solid red;
+}
+
+.row6 {
+    grid-column: span 2;
+    border: 1px solid red;
+}
+
+.row7 {
+    grid-column: span 2;
+    border: 1px solid red;
+
+}
+
+.row8 {
+    grid-column: span 2;
+    border: 1px solid red;
+}
+.offest {
+    grid-column: span auto;
+    background-color: gray;
+    border: 1px solid;
+}
+
+
+
+    
+
+
+

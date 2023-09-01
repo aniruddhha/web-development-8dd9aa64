@@ -31,7 +31,7 @@ main {
 }
 
 .grid-item-2 {
-    grid-area: b;
+    grid-area: b-start;
 }
 
 .grid-item-3 {
