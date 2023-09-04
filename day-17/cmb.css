@@ -1,0 +1,33 @@
+
+/* Descedent Selector
+
+div p {
+    background-color: cadetblue;
+}    
+
+*/
+
+
+/* Child Selector
+
+div > p {
+    background-color: cadetblue;
+} 
+
+*/
+
+/* 
+
+Adjacent Sibling Selector
+
+div + p {
+    background-color: cadetblue;
+} 
+
+*/
+
+/* General Sibling Selector */
+
+div ~ p {
+    background-color: cadetblue;
+} 
