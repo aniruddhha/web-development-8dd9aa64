@@ -1,0 +1,44 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+.box:hover {
+    background-color: cadetblue;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:visited {
+    color: green;
+}
+a:active {
+    color: hotpink;
+}
+
+#nm:focus {
+    background-color: red;
+}
+
+/* #rd:checked {
+    background-color: cadetblue;
+} */
+
+/* input[type="checkbox"] {
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid #ccc; 
+    background-color: white;
+    cursor: pointer; 
+} */
+
+input[type='checkbox']:checked {
+   /* border: 1px solid red; */
+   background-color: red;
+}
