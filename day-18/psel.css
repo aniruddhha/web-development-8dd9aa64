@@ -1,0 +1,21 @@
+/* h1::before {
+    content: url('./party.png');
+} */
+
+/* h1::after {
+    content: url('./party.png');
+} */
+
+/* p::first-line {
+    color: red;
+} */
+
+/* p::first-letter {
+    font-size: 3em;
+    color: cadetblue;
+} */
+
+::selection {
+    background-color: yellow;
+    color: black;
+}

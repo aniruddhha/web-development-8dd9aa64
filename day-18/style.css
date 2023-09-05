@@ -1,0 +1,19 @@
+/* p:first-child {
+    background-color: cadetblue;
+}
+
+p:last-child {
+    background-color: brown;
+} */
+
+/* div:nth-child(3) {
+    background-color: yellow;
+} */
+
+p {
+    color: black;
+}
+
+:not(p) {
+   color: red;
+}
