@@ -1,0 +1,23 @@
+
+
+
+/* Media query for mobile screens (up to 767px) */
+@media screen and (max-width: 767px) {
+   #mbl { visibility: visible; display: block; }
+   #tbt { visibility: hidden; display: none;}
+   #comp { visibility: hidden; display: none;}
+}
+
+/* Media query for tablet screens (768px to 1023px) */
+@media screen and (min-width: 768px)  and (max-width: 1023px) {
+    #mbl { visibility: hidden; display: none;}
+    #tbt { visibility: visible; display: block;}
+    #comp { visibility: hidden; display: none;}
+}
+
+/* Media query for computer screens (1024px and above) */
+@media screen and (min-width: 1024px) {
+    #mbl { visibility: hidden; display: none;}
+    #tbt { visibility: hidden; display: none;}
+    #comp { visibility: visible;display: block; }
+}
