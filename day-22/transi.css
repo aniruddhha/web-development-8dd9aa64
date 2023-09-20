@@ -1,0 +1,39 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fade-in {
+    font-size: 3em;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.fade-in:hover {
+    opacity: 1;
+}
+
+.move-right {
+    transition: transform 1s ease;
+}
+
+.move-right:hover {
+    transform: translateX(200px);
+}
+
+.rotate-simple {
+    transition: transform 1s ease;
+}
+.rotate-simple:hover {
+    transform: rotate(0.5turn);
+}
