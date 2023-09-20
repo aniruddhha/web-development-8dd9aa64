@@ -8,8 +8,6 @@ main {
     height: 90%;
 }
 
-
-
 /* Media query for mobile screens (up to 767px) */
 @media screen and (max-width: 767px) {
     .container {
