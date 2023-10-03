@@ -30,6 +30,7 @@ const speedUp4 = mxzcvn => mxzcvn * 2
 speedUp4(10)
 
 function changeColor1(r, g, b) {
+    
     let red = r, green = g, blue = b;
     if(!r)
         red = Math.random() * 256 // 0.2 * 256
@@ -64,3 +65,15 @@ const changeColor4 = (r, b, g) => {
 
 const changeColor5 = (r, b, g) => `${r ? r : Math.random() * 256}, ${g ? g : Math.random() * 256}, ${b ? b : Math.random() * 256}`
 
+let red = r, green = g, blue = b;
+if(!r)
+    red = Math.random() * 256 // 0.2 * 256
+if(!g)
+    green = Math.random() * 256
+if(!b) 
+    blue = Math.random() * 256
+
+return `${red}, ${green}, ${blue}`
+
+const spd = 20
+const speed = spd * 2
