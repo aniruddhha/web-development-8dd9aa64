@@ -23,6 +23,7 @@ function infiniteLoopWithCondition() {
         
         // if(isSec == true) break
         if(isSec) break
+        else continue
     }
 }
 
